@@ -27,8 +27,8 @@
 
 ### Для запуска и просмотра отчета по тестированию "Allure", ввести команды:
 
-1. `./gradlew allureReport`
-2. `./gradlew allureServe`
+1. `gradlew allureReport`
+2. `gradlew allureServe`
 
 ### Для остановки работы контейнеров "Docker-Compose", ввести команду:
 
