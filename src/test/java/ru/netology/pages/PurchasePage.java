@@ -26,12 +26,12 @@ public class PurchasePage {
     private final SelenideElement failedTransaction = $(byText("Ошибка! Банк отказал в проведении операции."));
     private final SelenideElement continueButton = $$("button").find(exactText("Продолжить"));
 
-    public void fillPurchaseForm(DataHelper.CardInfo cardData) {
-        cardNumber.setValue(cardData.getNumber());
-        month.setValue(cardData.getMonth());
-        year.setValue(cardData.getYear());
-        holderName.setValue(cardData.getHolder());
-        cvvCode.setValue(cardData.getCvc());
+    public void fillPurchaseForm(DataHelper.CardInfo cardInfo) {
+        cardNumber.setValue(cardInfo.getNumber());
+        month.setValue(cardInfo.getMonth());
+        year.setValue(cardInfo.getYear());
+        holderName.setValue(cardInfo.getHolder());
+        cvvCode.setValue(cardInfo.getCvc());
         continueButton.click();
     }
 
