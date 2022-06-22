@@ -16,14 +16,14 @@
 1. Ввести в терминал команду `java -Dspring.datasource.url=jdbc:mysql://localhost:3306/app -jar aqa-shop.jar`.
 2. Открыть новую вкладку терминала и ввести команду `./gradlew clean test -Ddb.url=jdbc:mysql://localhost:3306/app`.
 
-**Терминал для запуска второй команды должен быть не Local!!!**
+**Терминал для запуска команд должен быть не Local!!!**
 
 ### Запуск SUT и авто-тестов "PostgreSQL":
 
 1. Ввести в терминал команду `java -Dspring.datasource.url=jdbc:postgresql://localhost:5432/postgres -jar aqa-shop.jar`.
 2. Открыть новую вкладку терминала и ввести команду `./gradlew clean test -Ddb.url=jdbc:postgresql://localhost:5432/postgres`.
 
-**Терминал для запуска второй команды должен быть не Local!!!**
+**Терминал для запуска команд должен быть не Local!!!**
 
 ### Для запуска и просмотра отчета по тестированию "Allure", ввести команды:
 
